@@ -1,0 +1,55 @@
+.product-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f0f0f0;
+}
+
+/* Tarjeta simple y limpia */
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 250px;
+  padding: 16px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Imagen que llena ancho */
+.product-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Precio destacado */
+.product-price {
+  color: green;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+/* Descripción */
+.product-description {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Botón simple y moderno */
+.product-button {
+  background: #008cba;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.product-button:hover {
+  background: #005f7a;
+}

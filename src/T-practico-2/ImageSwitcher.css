@@ -1,0 +1,31 @@
+.image-switcher {
+  background-color: #f0f0f0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.botones button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botones button:hover {
+  background-color: #e65100;
+}
+
+.image-switcher img {
+  margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}

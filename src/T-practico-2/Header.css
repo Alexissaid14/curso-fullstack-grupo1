@@ -1,0 +1,25 @@
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.botones-header {
+  margin-top: 1rem;
+}
+
+.botones-header button {
+  margin: 0 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+}
+
+.botones-header button:hover {
+  background-color: #21a1f1;
+  color: white;
+}
